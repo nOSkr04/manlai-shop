@@ -7,6 +7,7 @@ import {
   NavigationRoutes,
   RootStackParamList,
 } from "../navigation/types";
+import { useNavigation } from "@react-navigation/native";
 
 const LoginCheckSheet = memo(() => {
   const navigation =
